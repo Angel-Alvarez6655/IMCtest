@@ -18,6 +18,10 @@ Class Persona{
                 echo '<h2>IMC: '.$IMC.'</h2><br>';
                 echo 'Enhorabuena '.$nombre.$stringGenerico.'Normales o peso saludable.<br>';
             }
+            elseif($IMC >= 25.0 && $IMC <= 29.9){
+                echo '<h2>IMC: '.$IMC.'</h2><br>';
+                echo 'Papi, ahi la llevas pero echale más ganaas👏 '.$nombre.$stringGenerico.'Sobrepeso.<br>';
+            }
             else{
                 echo '<h2>IMC: '.$IMC.'</h2><br>';
                 echo 'Carnal bajale a las tortillas😱 '.$nombre.$stringGenerico.'Obesidad.<br>';
